@@ -1,6 +1,6 @@
 ## 4.1.3 Running process_radtags
 
-Here is how single-ende data received from an Illumina sequencer might look:
+Here is how single-end data received from an Illumina sequencer might look:
 
 ```
 % ls ./raw

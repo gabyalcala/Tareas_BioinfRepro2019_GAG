@@ -1,4 +1,4 @@
-##4.1.3 Running process_radtags
+## 4.1.3 Running process_radtags
 
 Here is how single-ende data received from an Illumina sequencer might look:
 
@@ -52,7 +52,7 @@ sample_ACTG.rem.2.fq
 ```
 The **process_radtags** program wants to keep the reads in *phase,* so that the first read in theh `sample_XXX.1.fq` file in the mate of the first read in the `sample_XXX.2.fq` file. Likewise for the second pair of reads being the second record in each of the two files and so on. When one read in a pair is discarded due to low quality or a missing restriction enzyme cut site, the remaining read can't simply be output to the `sample_XXX.1.fq`or `sample_XXX.2.fq`files as it would cause the remaining reads to fall out phase. Instead, this read is considered a *remainder* read and is output into the `sample_XXX.rem.1.fq` file if the paired-end was discarded, or the `sample_XXX.rem.2.fq`file if the single-end was discarded.
 
-###Modifying how process_radtags executes
+### Modifying how process_radtags executes
 
 The **process_radtags** program an be modified in several ways. If your data do not have barcodes, omit the barcodes file and the program will not try to demultiplex the data. You can also disable the cheking of the restriction enzyme cut site, or modify what types of quality are checked for. So, the program can be modified to only demultiplex and not clean, clean but not demultiplex, or some combination.
 

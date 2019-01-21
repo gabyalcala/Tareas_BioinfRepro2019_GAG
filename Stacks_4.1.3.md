@@ -16,7 +16,7 @@ Then you can run **process_radtags** in the following way:
 
 ```
 % process_radtags -p ./raw/ -o ./samples/ -b ./barcodes/barcodes_lane3 \ 
-                    -e sbfI -r -c -q
+                  -e sbfI -r -c -q
 ```
 
 I specify the directory containing the input files, `./raw`, the directory I want **process_radtags** to enter the output files, `./samples`, and a file containing my barcodes, `./barcodes/barcodes_lane3`along with the restrction enzyme I used and instructions to clean the data an correct barcodes and restriction enzyme cutsites (`-r,` `-c,` `-q`).

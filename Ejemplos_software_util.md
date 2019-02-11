@@ -13,7 +13,7 @@
 
 * **vcfR** Es un paquete de R que me será útil para explorar mis datos del archvio vcf y visualizarlos de forma gráfica. El archivo input es un VCF.
 
- [Manual](https://cran.r-project.org/web/packages/vcfR/vcfR.pdf)
+ [Manual de vcfR](https://cran.r-project.org/web/packages/vcfR/vcfR.pdf)
 
  Viñetas
  * [Convertir datos](https://cran.r-project.org/web/packages/vcfR/vignettes/converting_data.html)

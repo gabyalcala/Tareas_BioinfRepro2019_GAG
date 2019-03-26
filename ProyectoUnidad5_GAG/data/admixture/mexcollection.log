@@ -1,0 +1,46 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Web-based version check ( --noweb to skip )
+Recent cached web-check found...Problem connecting to web
+
+Writing this text to log file [ ../../data/admixture/mexcollection.log ]
+Analysis started: Mon Mar 25 18:08:20 2019
+
+Options in effect:
+	--file ../../data/admixture/mexcollection
+	--make-bed
+	--out ../../data/admixture/mexcollection
+
+** For gPLINK compatibility, do not use '.' in --out **
+31159 (of 31159) markers to be included from [ ../../data/admixture/mexcollection.map ]
+Warning, found 192 individuals with ambiguous sex codes
+Writing list of these individuals to [ ../../data/admixture/mexcollection.nosex ]
+192 individuals read from [ ../../data/admixture/mexcollection.ped ] 
+0 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+0 cases, 0 controls and 192 missing
+0 males, 0 females, and 192 of unspecified sex
+Before frequency and genotyping pruning, there are 31159 SNPs
+192 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 0.958626
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 31159 SNPs
+After filtering, 0 cases, 0 controls and 192 missing
+After filtering, 0 males, 0 females, and 192 of unspecified sex
+Writing pedigree information to [ ../../data/admixture/mexcollection.fam ] 
+Writing map (extended format) information to [ ../../data/admixture/mexcollection.bim ] 
+Writing genotype bitfile to [ ../../data/admixture/mexcollection.bed ] 
+Using (default) SNP-major mode
+
+Analysis finished: Mon Mar 25 18:08:29 2019
+

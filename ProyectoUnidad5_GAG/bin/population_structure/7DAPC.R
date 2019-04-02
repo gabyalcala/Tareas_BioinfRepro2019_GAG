@@ -29,6 +29,5 @@ scatter(dapc1)
 scatter(dapc1, ratio.pca = 0.3, bg="white", pch=20, cell=0, cstar=0, solid=0.3, cex=1,
         clab=0, mstree = FALSE, scree.da = FALSE, posi.pca = "bottomright", leg=TRUE)
 
-compoplot(dapc1, subset=1:125, posi="bottomright", txt.leg=paste("Cluster", 1:3), lab="", ncol=2, xlab="individuals")
 
 

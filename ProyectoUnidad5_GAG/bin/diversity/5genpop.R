@@ -1,4 +1,4 @@
-## This script runs 
+## This script runs population genetics statistics 
 
 # Load the libraries  
 library("adegenet")

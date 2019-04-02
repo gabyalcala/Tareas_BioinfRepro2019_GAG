@@ -6,6 +6,7 @@ This directory contains data and scripts generated from the study entitled [Geno
 It has the scripts that were used for analyzing the data.
 
   **samples**
+  
   1.- Extract the names of each sample [./bin/samples/1samples_name.sh](./bin/samples/1samples_name.sh)
   2.- To filter and make the vcf files by populations [./bin/samples/2filter_bypopulation.sh](./bin/samples/2filter_bypopulation.sh)
   3.- Convert to plink and structure format [./bin/samples/3plink_files.sh](./bin/samples/3plink_files.sh)

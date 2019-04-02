@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script creates the vcf files of the populations Taviche, Costeño, Tusta y Chile de agua
+# This script creates the vcf files of the populations Taviche, Costeño, Tusta y Chile de agua and a file with the four populations
 
 # Create a variable to run vcftools in docker
 vcftools="docker run --rm -v /Users/gabyalcala/Desktop/Tareas_BioinfRepro2019_GAG/ProyectoUnidad5_GAG/data:/data biocontainers/vcftools:0.1.15 vcftools"
@@ -18,6 +18,10 @@ $vcftools --vcf ../../data/mexcollection.vcf --remove ../../data/samples_names/o
 
 ### Make the file for chile de agua population 
 $vcftools --vcf ../../data/mexcollection.vcf --remove ../../data/samples_names/only_chiledeagua.txt --max-missing 0.9 --maf 0.05 --recode --recode-INFO-all --out chiledeagua.vcf
+
+### Make the file for four populations 
+$vcftools --vcf ../../data/mexcollection.vcf --remove ../../data/samples_names/only_fourpopulations.txt --max-missing 0.9 --maf 0.05 --recode --recode-INFO-all --out fourpopulations.vcf
+
 
 ### move .recode.vcf files to directory vcf_files_by_population
 

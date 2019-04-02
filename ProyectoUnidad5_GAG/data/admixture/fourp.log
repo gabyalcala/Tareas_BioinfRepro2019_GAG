@@ -1,0 +1,30 @@
+PLINK v1.90b6.9 64-bit (4 Mar 2019)
+Options in effect:
+  --file ../../data/admixture/fourp
+  --make-bed
+  --out ../../data/admixture/fourp
+
+Hostname: Air-de-Gabriela
+Working directory: /Users/gabyalcala/Desktop/Tareas_BioinfRepro2019_GAG/ProyectoUnidad5_GAG/bin/population_structure
+Start time: Wed Mar 27 21:18:28 2019
+
+Random number seed: 1553743108
+8192 MB RAM detected; reserving 4096 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (16812 variants, 125 people).
+--file: ../../data/admixture/fourp-temporary.bed +
+../../data/admixture/fourp-temporary.bim +
+../../data/admixture/fourp-temporary.fam written.
+16812 variants loaded from .bim file.
+125 people (0 males, 0 females, 125 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to ../../data/admixture/fourp.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 125 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.995148.
+16812 variants and 125 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to ../../data/admixture/fourp.bed + ../../data/admixture/fourp.bim +
+../../data/admixture/fourp.fam ... done.
+
+End time: Wed Mar 27 21:18:29 2019

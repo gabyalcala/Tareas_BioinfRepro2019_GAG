@@ -7,8 +7,7 @@ It contains data in file in variant call format (vcf) from the study made by Tai
 * **bin**
 
 It has the scripts that were used for analyzing the data. 
-   **samples** 
-  1.- Extract the names of each sample [./samples/1samples_name.sh](./samples/1samples_name.sh)
+   
    **diversity** contains the scripts to calculate nucleotide diversity, F<sub>ST</sub>, expected (H<sub>exp</sub>)and observed (H<sub>obs</sub>) heterozygosities.
    **popultaion_structure** contains the scripts to ADMIXTURE and  discriminant analysis of principal components (DAPC).
 

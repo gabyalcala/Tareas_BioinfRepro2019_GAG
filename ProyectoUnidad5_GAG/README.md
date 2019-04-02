@@ -4,6 +4,7 @@ This directory contains data and scripts generated from the study entitled [Geno
 * **bin**
 
 It has the scripts that were used for analyzing the data.
+
   **samples**
   1.- Extract the names of each sample [./bin/samples/1samples_name.sh](./bin/samples/1samples_name.sh)
   2.- To filter and make the vcf files by populations [./bin/samples/2filter_bypopulation.sh](./bin/samples/2filter_bypopulation.sh)
@@ -17,7 +18,7 @@ It has the scripts that were used for analyzing the data.
    
 * **data**
 
-It contains data in file in variant call format (vcf) [mexcollection.tar.gz](./mexcollection.tar.gz) from the study made by Taitano N, Bernau V, Jardón-Barbolla L, Leckie B, Mazourek M, Mercer K, McHale L, Michel A, Baumler D, Kantar M, van der Knapp E (2018) Data from: Genomewide genotyping of a novel Mexican Chile Pepper collection illuminates the history of landrace differentiation after Capsicum annuum L. domestication. Dryad Digital Repository [https://doi.org/10.5061/dryad.f1782h7](https://datadryad.org/resource/doi:10.5061/dryad.f1782h7)
+It contains data in file in variant call format (vcf) from the study made by Taitano N, Bernau V, Jardón-Barbolla L, Leckie B, Mazourek M, Mercer K, McHale L, Michel A, Baumler D, Kantar M, van der Knapp E (2018) Data from: Genomewide genotyping of a novel Mexican Chile Pepper collection illuminates the history of landrace differentiation after Capsicum annuum L. domestication. Dryad Digital Repository [https://doi.org/10.5061/dryad.f1782h7](https://datadryad.org/resource/doi:10.5061/dryad.f1782h7)
 These directories contain the output files of:
 admixture
 samples_names

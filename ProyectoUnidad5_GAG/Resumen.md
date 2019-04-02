@@ -20,7 +20,7 @@ Para este trabajo se tomaron datos de el articulo ...y se tomaron cuatro poblaci
 
 
 
-![My image](./figures/heterozygosity.png "A title")
+![My image](./figures/Heterozygosity.png "A title")
 
 ###NJ tree
 ![My image](./figures/NJ_tree.png "A title")

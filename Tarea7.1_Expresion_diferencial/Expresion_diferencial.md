@@ -21,12 +21,16 @@ Existen 1012 genes que no estan diferenciados por ningun factor (genotipo, trata
 
 
 ![My image](./output/boxplot_raw_probe_qc.png "A title") 
+
 Figura 1. Boxplot de los datos sin procesar.
 
 ![My image](./output/boxplot_raw_treatment.png "A title")
+
 Figura 2. Box plot de los datos por tratamiento.
 
-![My image](./output/vennDiagram_DiffExprs.png "A title") Figura 3. Expresión deferencial de Genes e interacciones. 
+![My image](./output/vennDiagram_DiffExprs.png "A title") 
+
+Figura 3. Expresión deferencial de Genes e interacciones. 
 
 
 ![My image](./output/vennDiagram_Int.png "A title")

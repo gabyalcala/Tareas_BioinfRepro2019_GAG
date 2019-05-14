@@ -20,12 +20,15 @@ Los gráficos de la suma de cuadrados por muestra y por sondas se muestran en la
 
 
 ![My image](./clustering_por_grupos.png "A title") 
+
 Figura 1. Suma de cuadrados por muestra.
 
-![My image](./cuadrados probes.png "A title")
+![My image](./cuadrados_probes.png "A title")
+
 Figura 2. Suma de cuadrados por sondas.
 
 ![My image](./jear_muestras.png "A title") 
+
 Figura 3. Particionamiento jerárquico de muestras
 
 

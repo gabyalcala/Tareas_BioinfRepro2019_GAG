@@ -1,14 +1,15 @@
 # Tarea 9.1 Optimización de Parámetros en Stacks
 
-##Introducción
+## Introducción
+
 El programa *Stacks* está diseñado para funcionar con datos provenientes de librerías preparadas con enzimas de restricción y ensamblar secuencias de lecturas cortas de múltples muestras. Los ensamblados pueden ser *de novo* o con un genoma de referencia. 
 En *Stacks* los parámetros más sensibles son los que controlan el nivel de disimilitud de las secuencas dentro de un locus. Estos parámetros determinan cómo se definen los loci y qué lecturas forman parte de ellos. Este programa se ejecuta mediante módulos. En el módulo **ustacks** se ensamblan los loci de cada muestra de forma independiente y los parámetros que se pueden variar son *m* que controla el número de lecturas idénticas requeridas para formar un alelo y *M* que controla el número de desajustes permitidos entre los dos alelos de una muestra. El siguiente módulo es **cstacks** que fusiona los loci de todas las muestras en un grupo en común (catálogo), el parámetro que se puede variar es *n* que controla el número de desajustes permitidos entre cualquiera de los dos alelos de la población. 
 
 
-##Discusión
+## Discusión
 Los parámetros para correr *Stacks* deben optimizarse para culquier set de datos, ya que los valores óptimos dependen de la diversidad genética presente y de la calidad de los datos de secuenciación. Teniendo un set de datos que no tiene replicas, el mejor enfoque para optimizar los parámetros es *r80* propuesto por Paris *et al* (2017). El enfoque *r80* de optimización de parámetros consiste en hacer el análisis *de novo* con diferentes valores de parámetros y monitorear el número de loci RAD polimórficos encontrados en el 80 % de las muestras o más, hasta que se establezca un conjunto estable de valores para *m*, *M* y *n*.
 
-####Ejemplos de scrips
+#### Ejemplos de scrips
 El siguiente ejemplo muestra los scripts tomados de la documentación de *Stacks* para variar los diferentes parámetros.
 
 ```
